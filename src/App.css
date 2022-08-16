@@ -1,38 +1,181 @@
-.App {
+.html,
+.body {
+  height: 100%;
+}
+.d-flex {
+  display: flex;
+}
+.pr-5 {
+  padding-right: 10px;
+}
+.body {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.home-list {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+
+.header-button {
+  padding-right: 3px;
+}
+
+.header-right {
+  display: flex;
+}
+
+.main {
+  background-color: #aaa;
+  height: 80%;
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+}
+.red {
+  color: red;
+}
+.footer {
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  background-color: #1976d2;
+}
+.content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  padding: 0 20px;
+}
+
+.right-banner {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.signup-content {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.banner-title {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.pointer {
+  cursor: pointer;
+}
+.card-title {
+  text-align: center;
+}
+.form-links {
+  justify-content: space-between;
+}
+.product-card {
+  padding: 10px;
+  width: 230px;
+  border: #aaa;
+}
+.justify-center {
+  justify-content: center;
+}
+.products {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.card-price {
+  text-align: center;
+}
+.home-content {
+  justify-content: center;
+  padding-bottom: 35px;
+  /* text-align: center; */
+}
+.home-content > h2 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-div {
+  padding-bottom: 30px;
+  width: 70%;
+  margin: auto;
+}
+.signup-card {
+  display: block;
+  height: 60%;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.d-flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.posts-cards {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-bottom: 10px;
+}
+.post-card {
+  display: flex;
+  max-width: 345px;
+  padding: 10px;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.post-action {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-color {
+  font-size: large;
+  cursor: pointer;
+  color: #1976d2;
+  padding-right: 10px;
+}
+.delete-icon-color {
+  color: #e96f6f;
+  cursor: pointer;
+}
+
+.no-post {
+  padding-top: 60px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.search-bar .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 8.5px 14px;
+}
+
+.add-post-div {
+  padding-left: 10px;
+  justify-content: center;
+}
+.delete-popup {
+  padding: 20px;
+}
+.error-message {
+  padding-top: 5px;
+  color: #e96f6f;
 }
